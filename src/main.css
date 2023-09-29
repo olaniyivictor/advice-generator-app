@@ -1,0 +1,8 @@
+/* src/styles/main.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.custom-box-shadow {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px hsl(150, 100%, 66%);
+  }
