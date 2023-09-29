@@ -11,7 +11,7 @@ export default function Card({ loading, setLoading, error, setError }) {
   const [advice, setAdvice] = useState('');
   //setting a useState for the id
   const [id, setId] = useState(119);
-  const [vic,setVictor] = useState(119)
+  const [vic,setVictor] = useState(119);
 
 
    function getRandomId(min, max) {
